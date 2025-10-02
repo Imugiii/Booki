@@ -1,0 +1,57 @@
+html {
+    font-family: Raleway, sans-serif;
+    font-size: 62.5%;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+body {
+    font-size: 1.6rem;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 79px;
+}
+header img[src="image/logo/Booki.png"] {
+    width: 61.9px;
+    height: 19px;
+}
+
+header nav ul {
+    display: flex;
+    gap: 6.8rem;
+}
+
+header nav ul li a {
+    padding-top: 35px;
+    border-top: 2px solid transparent;
+}
+
+header nav ul li a:hover {
+    padding-top: 35px;
+    border-top: 2px solid #007bff;
+    color: #007bff;
+}
+
+h1 {
+    font-size: 2.2rem;
+    font-weight: 700;
+}
+#search-bar p {
+    font-size: 1.9rem;
+    font-weight: 400;
+}
