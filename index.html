@@ -157,7 +157,7 @@
                 <h2>Les plus populaires</h2>
                 <i class="fa-solid fa-arrow-trend-up"></i>
                 </div>
-                <ul>
+                <!-- <ul>
                     <li>
                         <a href="#">
                             <img src="image/img/hebergements/4_small/hotel-le-soleil-du-matin.jpg" alt="Hôtel Le Soleil du Matin">
@@ -203,6 +203,85 @@
                                 <i class="fa-solid fa-star"></i>
                                 <i class="fa-solid fa-star"></i>
                                 <i class="fa-solid fa-star grey-star"></i>
+                            </div>
+                        </a>
+                    </li>
+                </ul> -->
+                <style>
+                    .side-card{
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-around;
+                        align-items: flex-start;
+                        padding-left: 15px;
+                    }
+                    .side-card h3{
+                        font-size: 16px;
+                        margin: 0;
+                        padding: 0;
+                    }
+                    .side-card p{
+                        margin: 0;
+                        padding: 0;
+                    }
+                </style>
+
+                // j'ai juste rajouter une div qui contient le titre le prix et les étoiles et un peu de css pour 
+                // l'arranger comme ça le rendu est quasi bien. 
+                // sans la div qui les contient c'est quasi impossible de bien les arranger
+
+                 <ul>
+                    <li>
+                        <a href="#">
+                            <img src="image/img/hebergements/4_small/hotel-le-soleil-du-matin.jpg" alt="Hôtel Le Soleil du Matin">
+                            <div  class="side-card">
+                                <div>
+                                    <h3>Hôtel Le Soleil du Matin</h3>
+                                    <p>Nuit à partir de 128€</p>
+                                </div>
+                                <div class="stars-popular">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star grey-star"></i>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="image/img/hebergements/4_small/chambres-dhotes-au-coeur-de-leau.jpg" alt="Chambres d'hôtes au cœur de l'eau">
+                            <div  class="side-card">
+                            <div class="resume-popular" id="resume-popular">
+                                <h3>Chambres d'hôtes au cœur de l'eau</h3>
+                                <p>Nuit à partir de 71€</p>
+                            </div>
+                            <div class="stars-popular">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star grey-star"></i>
+                            </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="image/img/hebergements/4_small/hotel-bleu-et-blanc.jpg" alt="Hôtel Bleu et Blanc">
+                            <div  class="side-card">
+                            <div class="resume-popular" id="resume-popular">
+                                <h3>Hôtel Bleu et Blanc</h3>
+                                <p>Nuit à partir de 128€</p>
+                            </div>
+                            <div class="stars-popular">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star grey-star"></i>
+                            </div>
                             </div>
                         </a>
                     </li>
